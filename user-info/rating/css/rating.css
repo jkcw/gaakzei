@@ -1,0 +1,348 @@
+/*heading*/
+header {
+    background-color: #fff;
+    position: none;
+}
+body {
+    background: #F2F2F2;
+}
+
+/*main*/
+.main-container {
+    width: 70%;
+    margin: 25px auto;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    background-color: #FFF;
+}
+
+/*main title*/
+.title-container {
+    width: 70%;
+    margin: 70px auto 0;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    background-color: #FFF;
+}
+
+.title-sub-container {
+    width: 90%;
+    margin: auto;
+}
+
+.profile-refer {
+    text-decoration: none;
+    color: black;
+}
+
+.profile-refer:hover {
+    text-decoration: underline;
+}
+
+/*svg and p*/
+.avg-score {
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+.avg-score-span {
+    font-size: 18px;
+    color: black;
+}
+
+.svg-span {
+    vertical-align: middle;
+}
+
+.total-span {
+    font-size: 14px;
+    margin-left: 5px;
+    color: grey;
+}
+
+.rating-svg {
+    height: 35px;
+    width: 35px;
+    
+}
+
+/*============================================*/
+
+/*title container*/
+.prev-comment-main-title-div {
+    padding-left: 15px;
+    border-bottom: 1px solid lightgrey;
+    margin-bottom: 15px;
+}
+
+.prev-comment-main-title {
+    font-size: 17.3px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.prev-comment-main-title-avg {
+    font-size: 13px;
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    color: darkgrey;
+
+    margin-left: 5px;
+}
+
+.prev-comment-main-title-avg:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+/*comment avg rating color*/
+.score-100 {
+    color: rgb(2, 148, 73);
+    font-weight: 560;
+}
+
+.score-80 {
+    color: rgb(145, 198, 68);
+    font-weight: 560;
+}
+
+.score-50 {
+    color: rgb(178, 168, 147);
+    font-weight: 560;
+}
+
+.score-25 {
+    color: rgb(248, 148, 28);
+    font-weight: 560;
+}
+
+.score-zero {
+    color: rgb(247, 26, 38);
+    font-weight: 560;
+}
+/*===================================================================================*/
+
+/*prev comment container*/
+/*div*/
+.each-comment-container {
+    width: 90%;
+    height: 160px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+}
+
+/*title*/
+.each-comment-title-main-div {
+    padding-left: 15px;
+    padding-right: 3px;
+    width: 100%;
+    border-bottom: 1px solid lightgrey;
+}
+
+.each-comment-title-sub-div {
+    display: inline-block;
+    margin-left: 3px;
+}
+
+.each-comment-title-sub-svg-div {
+    float: right;
+}
+
+.comment-username-p {
+    vertical-align: middle;
+}
+
+.comment-username-a {
+    color: black;
+    text-decoration: none;
+}
+
+.comment-username-a:hover {
+    text-decoration: underline;
+}
+
+.comment-commentdate-p {
+    vertical-align: middle;
+    font-size: 13px;
+    color: grey;
+}
+
+.each-comment-svg {
+    height: 50px;
+    width: 50px;
+}
+
+/*===================================================================================*/
+/*comment content*/
+.each-comment-content-div {
+    width: 100%;
+}
+
+.each-comment-content-article {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 14.5px;
+    word-break: break-all;
+}
+
+/*===================================================================================*/
+/*comment img*/
+/*div*/
+.each-comment-img-div {
+    margin: auto;
+    margin-bottom: 20px;
+    width: 90%;
+}
+
+/*title*/
+.each-comment-img-p {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently*/
+
+    color: #7788EE;
+}
+
+.each-comment-img-p:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #0033EE;
+}
+
+/*img table*/
+.each-comment-img-container {
+}
+
+
+.comment-img {
+    display: inline-block;
+    max-width: 95px;
+    max-height: 95px;
+    border: 3px solid lightgrey;
+    border-radius: 5px;
+
+    margin: 0 5px;
+}
+
+.comment-img:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+/*popup*/
+.popup-container {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 3000; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /*  opacity */
+}
+
+/*popup img*/
+.popup-img-class {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Add Animation */
+.popup-img-class {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)}
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+/* The popup-close Button */
+.img-comment-cross {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    height: 50px;
+    width: 50px;
+    transition: 0.3s;
+}
+
+.img-comment-cross:hover,
+.img-comment-cross:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*load more button*/
+.button-loadmore-div {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.button-loadmore {
+    border: 3px solid lightgrey;
+    border-radius: 70px;
+    background-color: #FFF;
+    padding: 5px 12px;
+
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently*/
+}
+
+.button-loadmore:hover {
+    cursor: pointer;
+}
+
+.button-loadmore:active {
+    padding: 2px 5px;
+    font-size: 75%;
+}
+
+/*if there are no more comment*/
+.comment-nomore {
+    text-align: center;
+    font-size: 13.5px;
+    color: #43464B;
+}
+/*===================================================================================*/
+/*===================================================================================*/
+/*===================================================================================*/
+
+@media only screen and (max-width: 1050px){ 
+
+    .title-container {
+        width: 96%;
+    }
+
+    .main-container {
+        width: 96%;
+    }
+
+}

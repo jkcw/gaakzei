@@ -1,0 +1,174 @@
+/*heading*/
+header {
+  background-color: #fff;
+}
+body {
+  background: #F2F2F2;
+  margin-top: 80px;
+}
+/*===================================================================================*/
+
+/*heading*/
+.goods-upload-heading {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/*===================================================================================*/
+
+/*container*/
+.main-container {
+    width: 75%;
+    margin: 0 auto;
+}
+
+/*===================================================================================*/
+
+/*details*/
+.form-container {
+    width: 100%;
+    background-color: #FFF;
+
+    padding: 12px 12px;
+
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+}
+
+/*img*/
+.profile-edit-img {
+    margin: 20px auto;
+    text-align: center;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+}
+
+.img_ul {
+    list-style-type: none;
+    overflow: hidden;
+    display: inline-block;
+    padding-inline-start: 0;
+}
+
+.img_li {
+    display: inline-block;
+    margin: 5px 65px 10px 65px;
+}
+
+/*div*/
+.img-div {
+    width: 100px;
+}
+
+.img_product {
+    position: relative;
+    height: 100px;
+    cursor: pointer;
+}
+
+/*img button*/
+.img-button {
+    width: 100px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    color: #FFF;
+    background: linear-gradient(to left, #26CDD9, #5B86E5);
+
+    border: none;
+    border-radius: 4px;
+}
+
+.img-button:hover {
+    cursor: pointer;
+    background: linear-gradient(to right, #26CDD9, #5B86E5);
+}
+
+.file-input {
+    display: none;
+}
+
+/*===================================================================================*/
+
+/*Start of other input*/
+.profile-edit-details-form-div {
+    position: relative;
+    width: 100%;
+}
+
+/*heading*/
+.heading-input-details {
+    position: relative;
+    font-size: 15px;
+    margin-left: 2.4%;
+    margin-bottom: 0;
+}
+
+/*input div*/
+.input-div-details {
+    text-align: center;
+}
+
+.input-div-details input{
+    width: 96%;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    padding: 9px 5px 9px 5px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+/*ckeditor*/
+.input-div-ckeditor {
+    margin: auto;
+    width: 96%;
+}
+
+/*address*/
+.district-address {
+    margin-bottom: 10px;
+}
+
+.district {
+    width: 300px;
+}
+
+.address {
+    margin-bottom: 15px;
+}
+
+/*===================================================================================*/
+
+/*button*/
+.details-button {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.update-details-submit {
+    padding: 0.5rem 2.3rem;
+    background: linear-gradient(to left, #26CDD9, #5B86E5);
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 3rem;
+}
+
+.update-details-submit:hover {
+    background: linear-gradient(to right, #26CDD9, #5B86E5);
+    cursor: pointer;
+}
+
+.update-details-submit:active {
+    padding: 0.3rem 2.0rem;
+}
+
+/*===================================================================================*/
+
+/*media*/
+@media screen and (max-width: 925px) {
+    .main-container {
+        width: 90%;
+        margin: 0 auto;
+    }
+}

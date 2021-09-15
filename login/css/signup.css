@@ -1,0 +1,271 @@
+header {
+  background-color: #fff;
+}
+body {
+  background: #F2F2F2;
+  margin-top: 80px;
+}
+
+#wrapper{
+    width: 90%;
+    height: 70rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container{
+    width: 100%;
+    max-width: 40rem;
+    background-color: #fff;
+    position: relative;
+    padding: 10rem 0;
+    box-shadow: 0 1px 1.5rem rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    z-index: 1;
+}
+
+.form-container::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 30rem;
+    background: linear-gradient(to left, #26CDD9, #5B86E5);
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    z-index: -1;
+}
+
+.form-heading{
+  color: #fff;
+  font-size: 2.5rem;
+  position: absolute;
+  top: 3.5rem;
+  left: 17.4rem;
+}
+
+.signup-form{
+    padding: 2rem 0;
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 1px 1.5rem rgba(0, 0, 0, 0.1);/*萬能box-shadow*/
+}
+
+.input-group{
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    align-items: baseline;
+}
+
+.signup-input{/**/
+    position: relative;
+    width: 100%;
+    padding: 1rem 0;
+    margin-top: .5rem;
+    border: none;
+    outline: none;
+    font-size: 1.8rem;
+    color: #5B86E5;
+}
+
+.input-group > i{/*Icon*/
+    font-size: 2rem;
+    margin-right: 1rem;
+    background: -webkit-linear-gradient(#26CDD9, #5B86E5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.input-group .bar{/*Status bar*/
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 1px;
+}
+
+.input-group .bar::before{ /*make the bar effect*/
+    content: '';
+    position: absolute;
+    background: linear-gradient(#26CDD9, #5B86E5);
+    width: 0;
+    height: 2px;
+    transition: width 650ms;
+}
+
+.input-group input:focus + .bar::before{ /*make the bar effect*/
+    width: 100%;
+}
+
+.input-group button{/*Design of button*/
+    margin: 4rem auto;
+    padding: 1rem 4rem;
+    background: linear-gradient(to left, #26CDD9, #5B86E5);
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 3rem;
+}
+
+.input-group button:focus,
+.input-group button:hover{/*Event of button*/
+    background: linear-gradient(to right, #26CDD9, #5B86E5);
+
+}
+/*==================================================================================*/
+
+@media screen and (max-width: 1325px) {
+    .form-container::before{
+      height: 10rem;
+    }
+
+    .check {
+        cursor: pointer;
+        position: relative;
+        width: 18px;
+        height: 18px;
+        -webkit-tap-highlight-color: transparent;
+        transform: translate3d(0, 0, 0);
+    }
+
+    .check svg {
+        position: relative;
+        z-index: 1;
+        right: 33px;
+        bottom: 2.5px;
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke: #4d4d4d;
+        stroke-width: 1.5;
+        transform: translate3d(0, 0, 0);
+        transition: all 0.2s ease;
+    }
+
+    .word{
+        text-align: center;
+        font-size: 13px;
+    }
+
+    .form-heading{
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    form{
+      border-radius: initial;
+      transform: initial;
+      box-shadow: none;
+    }
+}
+
+/*=================================For Check Box====================================*/
+/*Layout of checkbox*/
+.check {
+    cursor: pointer;
+    top: 1.60rem;
+    left: 5.5rem;
+    position: relative;
+    margin: auto;
+    width: 18px;
+    height: 18px;
+    -webkit-tap-highlight-color: transparent;
+    transform: translate3d(0, 0, 0);
+}
+.check:before {
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: rgba(77,77,77,0.03);
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+.check svg {
+    position: relative;
+    z-index: 1;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #4d4d4d;
+    stroke-width: 1.5;
+    transform: translate3d(0, 0, 0);
+    transition: all 0.2s ease;
+}
+.check svg path {
+    stroke-dasharray: 60;
+    stroke-dashoffset: 0;
+}
+.check svg polyline {
+    stroke-dasharray: 22;
+    stroke-dashoffset: 66;
+}
+.check:hover:before {
+    opacity: 1;
+}
+.check:hover svg {
+    stroke: #4285f4;
+}
+#cbx:checked + .check svg {
+    stroke: #4285f4;
+}
+#cbx:checked + .check svg path {
+    stroke-dashoffset: 60;
+    transition: all 0.3s linear;
+}
+#cbx:checked + .check svg polyline {
+    stroke-dashoffset: 42;
+    transition: all 0.2s linear;
+    transition-delay: 0.15s;
+}
+/*=================================For Consent word====================================*/
+
+.word{
+    text-align: center;
+}
+/*=================================For Login====================================*/
+
+.switch-login{
+    text-align: center;
+}
+
+.switch-login a{
+    text-decoration: none;
+    color: #a1a1a1;
+    font-size: 1.5rem;
+}
+
+.switch-login a span{
+    color: #1fa4ad;
+}
+
+.switch-login a span:hover{
+    padding-bottom: 2px;
+    border-bottom: 2px solid #1fa4ad;
+}
+
+/*================================================Error Message===============================================*/
+
+.signuperror{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.report{
+    margin-left: 30px;
+    color: #00BFFF;
+    font-size: 20px;
+}
+
+/*================================================End of Error Message===============================================*/

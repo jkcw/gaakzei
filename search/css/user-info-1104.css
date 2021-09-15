@@ -1,0 +1,113 @@
+/*code start here*/
+header {
+    background-color: #fff;
+}
+
+body {
+    background: #F2F2F2;
+    margin-top: 80px;
+}
+
+/*==============================================================================*/
+
+/*The main box container*/
+.user-box-container {
+    width: 90%;
+    
+    margin: 20px auto;
+    border: 1px solid lightgrey;
+}
+
+/*sub container*/
+.user-left-container {
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+}
+
+/*user icon*/
+.user-search-icon {
+    width: 140px;
+    height: 140px;
+    border-radius: 1000px;
+}
+
+/*user info*/
+.user-right-container {
+    width: 65%;
+    display: inline-block;
+}
+
+.user-id-span {
+    font-size: 15px;
+    color: grey;
+}
+
+/*a*/
+.user-box-a {
+    color: black;
+    text-decoration: none;
+}
+
+.user-box-a:hover {
+    color: red;
+}
+
+@media screen and (max-width: 1050px) {
+
+}
+@media screen and (max-width: 959px) {
+
+}
+  @media only screen and (max-width: 450px) {
+    .user-right-container {
+    width: 65%;
+    display: inline-block;
+    text-align: right;
+}
+    .user-search-icon {
+    width: 90px;
+    height: 90px;
+    border-radius: 1000px;
+    margin: 25px auto;
+}
+  } 
+  @media only screen and (max-width: 380px) {
+ .user-right-container {
+    width: 65%;
+    display: inline-block;
+    text-align: right;
+}
+    .user-search-icon {
+    width: 90px;
+    height: 90px;
+    border-radius: 1000px;
+    margin: 25px auto;
+}
+  }
+  @media only screen and (max-width: 370px) {
+ .user-right-container {
+    width: 65%;
+    display: inline-block;
+    text-align: right;
+}
+    .user-search-icon {
+    width: 90px;
+    height: 90px;
+    border-radius: 1000px;
+    margin: 25px auto;
+}
+  }
+  @media only screen and (max-width: 350px) {
+ .user-right-container {
+    width: 65%;
+    display: inline-block;
+    text-align: right;
+}
+    .user-search-icon {
+    width: 90px;
+    height: 90px;
+    border-radius: 1000px;
+    margin: 25px auto;
+}
+  }

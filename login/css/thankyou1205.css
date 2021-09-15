@@ -1,0 +1,75 @@
+header {
+    background-color: #fff;
+}
+
+body {
+    margin-top: 5%;
+    background: #F2F2F2;
+}
+
+.main-container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    text-align: center;
+}
+
+.thx-icon-container{
+    text-align: center;
+    width:100%;
+}
+
+.thx-container{
+    text-align: center;
+    margin: auto;
+}
+
+.container-products {
+    width: 70%;
+    overflow: hidden;
+    background: #FFF;
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px 0;
+    border-radius: 6px;
+}
+
+.button4:hover {
+    background-color: #f7f7f7;
+    color: black;
+}
+
+.button {
+  background-color: #d9d9d9; 
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 450px) {
+.container-products {
+    width: 97%;
+
+}
+}
+@media only screen and (max-width: 380px) {
+.thx-icon-container{
+    width:90%;
+    margin-left: 30px;
+}
+}
+@media only screen and (max-width: 370px) {}
+@media only screen and (max-width: 350px) {}
+@media only screen and (max-width: 320px) {
+.thx-icon-container{
+    width:80%;
+}
+}

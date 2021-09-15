@@ -1,0 +1,51 @@
+header {
+    background-color: #fff;
+}
+
+body {
+    background: #F2F2F2;
+    margin-top: 80px;
+}
+
+.main-container {
+    width: 70%;
+    margin: auto;
+}
+
+
+.title {
+    text-align: center;
+}
+
+
+/*Container*/
+.container-products {
+    width: 100%;
+    overflow: hidden;
+    background: #FFF;
+    margin: 20px auto;
+    padding: 10px 10px 10px 10px;
+    border-radius: 6px;
+}
+
+.inner {
+	width: 100%;
+    
+}
+
+@media screen and (max-width: 1440px) {
+
+.main-container {
+    width: 80%;
+}
+}
+
+@media only screen and (max-width: 959px) {
+.main-container {
+	width: 97%;
+}
+	}
+@media only screen and (max-width: 450px) {}
+@media only screen and (max-width: 380px) {}
+@media only screen and (max-width: 370px) {}
+@media only screen and (max-width: 350px) {}

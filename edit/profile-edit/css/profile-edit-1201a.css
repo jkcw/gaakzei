@@ -1,0 +1,307 @@
+/*wrapper*/
+header {
+  background-color: #fff;
+}
+
+body {
+    background: #F2F2F2;
+}
+
+.main-edit-wrapper {
+
+}
+
+/*======================================================================================*/
+
+/*system-message*/
+.system-message {
+    text-align: center;
+    margin: 90px auto;
+}
+
+/*heading*/
+.profile-edit-heading {
+    margin: 80px auto;
+    text-align: center;
+}
+
+.alert {
+  display: none;
+}
+
+/*======================================================================================*/
+
+/*Icon edit*/
+.container-icon {
+    position: relative;
+    margin: 10px auto;
+    height: 220px;
+    width: 70%;
+    border-radius: 6px;
+    border: 1px solid lightgrey;
+    text-align: center;
+    background-color: #FFF;
+    box-shadow: 0 1px 1.5rem rgba(0, 0, 0, 0.1);
+}
+
+.container-icon .profile-icon {
+    width: 120px;
+    height: 120px;
+    text-indent: -140px;
+    margin: 5px auto;
+    border-radius: 1000px;
+    border: 6px solid #FFF;
+    display: block;
+}
+
+/*Change button*/
+.input-icon {
+    display: none;
+}
+
+.icon-form-label {
+    font-size: 20px;
+    color: #FFF;
+    background: linear-gradient(to right, #26CDD9, #5B86E5);
+    margin: 3px 15px;
+    padding: 3px 25px;
+    border: none;
+    border-radius: 5px;
+}
+
+.icon-button {
+    font-size: 20px;
+    color: #FFF;
+    background: linear-gradient(to right, #26CDD9, #5B86E5);
+    margin: 3px 15px;
+    padding: 3px 25px;
+    border: none;
+    border-radius: 5px;
+}
+
+.icon-form-label:hover {
+    background: linear-gradient(to left, #26CDD9, #5B86E5);
+    cursor: pointer;
+}
+
+.icon-button:hover {
+    background: linear-gradient(to left, #26CDD9, #5B86E5);
+    cursor: pointer;
+}
+
+.icon-button:active {
+    transform: translate(0, 3px);
+}
+/*======================================================================================*/
+
+.container-username {
+    position: relative;
+    margin: 10px auto;
+    height: 160px;
+    width: 70%;
+    border-radius: 6px;
+    border: 1px solid lightgrey;
+    text-align: center;
+    background-color: #FFF;
+    box-shadow: 0 1px 1.5rem rgba(0, 0, 0, 0.1);
+}
+
+.username-title-div {
+    margin: 13px 0 4px 0;
+}
+
+.input-username {
+    padding: 5px 8px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+}
+
+.username-button {
+    font-size: 20px;
+    color: #FFF;
+    background: linear-gradient(to right, #26CDD9, #5B86E5);
+    margin: 15px 15px;
+    padding: 3px 25px;
+    border: none;
+    border-radius: 5px;
+}
+
+.username-button:hover {
+    background: linear-gradient(to left, #26CDD9, #5B86E5);
+    cursor: pointer;
+}
+
+.username-button:active {
+    transform: translate(0, 3px);
+}
+
+/*======================================================================================*/
+/*Details edit*/
+.cointainer-details-edit {
+    position: relative;
+    margin: 10px auto;
+    height: 950px;
+    width: 70%;
+    border-radius: 6px;
+    border: 1px solid lightgrey;
+    text-align: center;
+    background-color: #FFF;
+    box-shadow: 0 1px 1.5px rgba(0, 0, 0, 0.1);
+}
+
+/*Form*/
+.form-details-edit {
+    width: 90%;
+    margin: 5px auto;
+    background-color: #fff;
+    border-radius: 1rem;
+    z-index: 1;
+}
+
+.details-input {
+    position: relative;
+    width: 90%;
+    padding: 13px 15px;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+
+}
+
+.details-p {
+    float: left;
+    position: relative;
+    width: 100%;
+    margin: 13px 0 4px 0;
+}
+
+.group-ckeditor {
+    margin: 15px auto;
+    width: 90%;
+}
+
+/*pwd*/
+.details-form-pwd {
+    margin: 50px auto 0;
+}
+
+.details-form-pwd-input {
+    padding: 5px 8px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+}
+
+.details-b-pwd {
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/*Button*/
+.submit-details {
+    padding: 0.5rem 3rem;
+    margin-top: 30px;
+    background: linear-gradient(to left, #26CDD9, #5B86E5);
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 3rem;
+}
+
+.submit-details:hover {
+    cursor: pointer;
+    background: linear-gradient(to right, #26CDD9, #5B86E5);
+}
+
+.submit-details:active {
+    transform: translate(0, 3px);
+}
+/*======================================================================================*/
+
+/*change pwd*/
+
+/*change pwd container*/
+.cointainer-pwd-edit {
+    position: relative;
+    margin: 10px auto;
+    height: 450px;
+    width: 70%;
+    border-radius: 6px;
+    border: 1px solid lightgrey;
+    background-color: #FFF;
+    box-shadow: 0 1px 1.5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/*heading*/
+.change-pwd-heading {
+    text-align: center;
+    font-size: 30px;
+}
+
+/*form*/
+
+/*div*/
+.pwd-group {
+    margin: 20px auto;
+}
+
+.pwd-p {
+    font-size: 17px;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 5px;
+}
+
+.pwd-input {
+    padding: 5px 8px;
+    border-radius: 5px;
+    width: 50%;
+    border: 1px solid lightgrey;
+}
+
+/*Button*/
+.submit-password {
+    padding: 0.5rem 3rem;
+    margin-top: 15px;
+    background: linear-gradient(to left, #26CDD9, #5B86E5);
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 3rem;
+}
+
+.submit-password:hover {
+    cursor: pointer;
+    background: linear-gradient(to right, #26CDD9, #5B86E5);
+}
+
+.submit-password:active {
+    transform: translate(0, 3px);
+}
+
+/*span pwd*/
+.span-pwd {
+    color:red;
+    font-size: 12px;
+    width: 80%;
+}
+
+/*======================================================================================*/
+
+@media screen and (max-width: 959px) {
+
+    .container-icon {
+        width: 90%;
+    }
+
+    .cointainer-details-edit {
+        width: 90%;
+    }
+
+    .cointainer-pwd-edit {
+        width: 90%;
+    }
+}

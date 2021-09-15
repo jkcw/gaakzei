@@ -1,0 +1,63 @@
+/*heading*/
+header {
+  background-color: #fff;
+}
+body {
+  background: #F2F2F2;
+  margin-top: 5%;
+}
+
+table {
+  font-family: arial, sans-serif; /*We need to change the font later*/
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+@media only screen and (max-width: 1050px) {
+    .main-container {
+      width: 96%;
+      margin: auto;
+  }
+body {
+      margin-top: 10%;
+}
+  }
+@media only screen and (max-width: 959px) {
+    .main-container {
+      width: 96%;
+      margin: auto;
+  }
+  }
+  @media only screen and (max-width: 450px) {
+    .main-container {
+      width: 96%;
+      margin: auto;
+  }
+  } 
+  @media only screen and (max-width: 380px) {
+    .main-container {
+      width: 96%;
+      margin: auto;
+  }
+  }
+  @media only screen and (max-width: 370px) {
+    .main-container {
+      width: 96%;
+      margin: auto;
+  }
+  }
+  @media only screen and (max-width: 350px) {
+    .main-container {
+      width: 96%;
+      margin: auto;
+  }
